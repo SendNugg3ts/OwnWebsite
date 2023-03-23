@@ -1,12 +1,15 @@
-import React from "react";
 import coum from "../photos/coum.jpg";
+import { forwardRef } from "react";
 
-const Introduction = () => {
+const Introduction = (props, ref) => {
   return (
-    <div className="bg-indigo-500 p-8 flex flex-col md:flex-row items-center md:items-start">
+    <div
+      className="bg-indigo-500 p-8 pt-16 flex flex-col md:flex-row items-center md:items-start"
+      ref={ref}
+    >
       <div className="w-full md:w-1/2 text-center mb-4 md:mb-0">
         <img
-          className="w-64 h-64 rounded-full mx-auto mb-4 md:mb-0"
+          className="w-64 h-64 rounded-full pt-6 mx-auto mb-4 md:mb-0"
           src={coum}
           alt="coum"
         />
@@ -24,5 +27,4 @@ const Introduction = () => {
     </div>
   );
 };
-export default Introduction;
-
+export default forwardRef(Introduction);

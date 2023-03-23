@@ -1,13 +1,10 @@
-import Introduction from './components/introduction';
-import Navbar from './components/navbar';
-import './index.css';
+import Navbar from "./components/navbar";
+import "./index.css";
 
 function App() {
   return (
-
-    <div className="App">
+    <div className="scroll-smooth App">
       <Navbar />
-      <Introduction />
     </div>
   );
 }
