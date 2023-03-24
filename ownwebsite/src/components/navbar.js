@@ -1,9 +1,14 @@
 import React from "react";
 import { useRef } from "react";
+import Experience from "./experience";
 import Introduction from "./introduction";
 
 const Navbar = () => {
     const ref = useRef(null);
+    const refexp = useRef(null);
+    const clicktoexp = ()=>{
+      refexp.current.scrollIntoView({behaviour:'smooth'});
+  }
     const clicktoIntro = ()=>{
         ref.current.scrollIntoView({behaviour:'smooth'});
     }
@@ -19,10 +24,10 @@ const Navbar = () => {
           </div>
           <div className="flex">
             <button className="px-4 py-2 text-white rounded-md hover:bg-blue-800" onClick={clicktoIntro}>
-              Introduction
+              About
             </button>
-            <button className="px-4 py-2 text-white rounded-md hover:bg-blue-800">
-              Technologies
+            <button className="px-4 py-2 text-white rounded-md hover:bg-blue-800" onClick={clicktoexp}>
+              Experience
             </button>
             <button className="px-4 py-2 text-white rounded-md hover:bg-blue-800">
               Links
@@ -32,92 +37,56 @@ const Navbar = () => {
       </div>
     </nav>
     <Introduction ref = {ref}/>
-    <p>about</p>
-    <p>sasa</p>
-    <p>gfdgfd</p>
-    <p>dfgfdgdf</p>
-    <p>dfgfdg</p>
-    <p>gdgdfg</p>
-    <p>fdfdfd</p>
-    <p>dfsdsf</p>
-    <p>fsdfsd</p>
-    <p>fsdfsdf</p>
-    <p>fsdfsdf</p>
-    <p>fsfsfs</p>
-    <p>fsdfsdf</p>
-    <p>fdsfsf</p>
-    <p>fsdfsf</p>
-    <p></p>
-    <p></p>
-    <p></p>
-    <p></p><p></p>
-    <p></p>
-    <p></p>
-    <p></p>
-    <p></p>
-    <p></p>
-    <p></p>
-    <p></p>
-    <p>about</p>
-    <p>sasa</p>
-    <p>gfdgfd</p>
-    <p>dfgfdgdf</p>
-    <p>dfgfdg</p>
-    <p>gdgdfg</p>
-    <p>fdfdfd</p>
-    <p>dfsdsf</p>
-    <p>fsdfsd</p>
-    <p>fsdfsdf</p>
-    <p>fsdfsdf</p>
-    <p>fsfsfs</p>
-    <p>fsdfsdf</p>
-    <p>fdsfsf</p>
-    <p>fsdfsf</p>
-    <p>about</p>
-    <p>sasa</p>
-    <p>gfdgfd</p>
-    <p>dfgfdgdf</p>
-    <p>dfgfdg</p>
-    <p>gdgdfg</p>
-    <p>fdfdfd</p>
-    <p>dfsdsf</p>
-    <p>fsdfsd</p>
-    <p>fsdfsdf</p>
-    <p>fsdfsdf</p>
-    <p>fsfsfs</p>
-    <p>fsdfsdf</p>
-    <p>fdsfsf</p>
-    <p>fsdfsf</p>
-    <p>about</p>
-    <p>sasa</p>
-    <p>gfdgfd</p>
-    <p>dfgfdgdf</p>
-    <p>dfgfdg</p>
-    <p>gdgdfg</p>
-    <p>fdfdfd</p>
-    <p>dfsdsf</p>
-    <p>fsdfsd</p>
-    <p>fsdfsdf</p>
-    <p>fsdfsdf</p>
-    <p>fsfsfs</p>
-    <p>fsdfsdf</p>
-    <p>fdsfsf</p>
-    <p>fsdfsf</p>
-    <p>about</p>
-    <p>sasa</p>
-    <p>gfdgfd</p>
-    <p>dfgfdgdf</p>
-    <p>dfgfdg</p>
-    <p>gdgdfg</p>
-    <p>fdfdfd</p>
-    <p>dfsdsf</p>
-    <p>fsdfsd</p>
-    <p>fsdfsdf</p>
-    <p>fsdfsdf</p>
-    <p>fsfsfs</p>
-    <p>fsdfsdf</p>
-    <p>fdsfsf</p>
-    <p>fsdfsf</p>
+    <p>kenfoenf</p>
+    <p>kenfoenf</p>
+    <p>kenfoenf</p>
+    <p>kenfoenf</p>
+    <p>kenfoenf</p>
+    <p>kenfoenf</p>
+    <p>kenfoenf</p>
+    <p>kenfoenf</p><p>kenfoenf</p>
+    <p>kenfoenf</p>
+    <p>kenfoenf</p>
+    <p>kenfoenf</p>
+    <p>kenfoenf</p>
+    <p>kenfoenf</p>
+    <p>kenfoenf</p>
+    <p>kenfoenf</p>
+    <p>kenfoenf</p>
+    <p>kenfoenf</p>
+    <p>kenfoenf</p>
+    <p>kenfoenf</p>
+    <p>kenfoenf</p>
+    <p>kenfoenf</p>
+    <p>kenfoenf</p>
+    <p>kenfoenf</p>
+    <p>kenfoenf</p>
+    <p>kenfoenf</p>
+    <p>kenfoenf</p>
+    <p>kenfoenf</p>
+    <p>kenfoenf</p>
+
+    <Experience refexp={refexp}/>
+    <p>kenfoenf</p>
+    <p>kenfoenf</p>
+    <p>kenfoenf</p>
+    <p>kenfoenf</p>
+    <p>kenfoenf</p>
+    <p>kenfoenf</p>
+    <p>kenfoenf</p>
+    <p>kenfoenf</p>
+    <p>kenfoenf</p>
+    <p>kenfoenf</p>
+    <p>kenfoenf</p>
+    <p>kenfoenf</p>
+    <p>kenfoenf</p>
+    <p>kenfoenf</p>
+    <p>kenfoenf</p>
+    <p>kenfoenf</p>
+    <p>kenfoenf</p>
+    <p>kenfoenf</p>
+    <p>kenfoenf</p>
+    <p>kenfoenf</p>
     </div>
   );
 };

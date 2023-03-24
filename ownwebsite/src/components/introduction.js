@@ -4,7 +4,7 @@ import { forwardRef } from "react";
 const Introduction = (props, ref) => {
   return (
     <div
-      className="bg-indigo-500 p-8 pt-16 flex flex-col md:flex-row items-center md:items-start"
+      className="bg-gradient-to-r from-indigo-500 via-purple-500 to-red-500 p-8 pt-16 flex flex-col md:flex-row items-center md:items-start"
       ref={ref}
     >
       <div className="w-full md:w-1/2 text-center mb-4 md:mb-0">
@@ -15,7 +15,7 @@ const Introduction = (props, ref) => {
         />
       </div>
       <div className="w-full md:w-1/1 text-center md:text-left mx-auto mt-7">
-        <h2 className="text-white text-4xl font-bold mb-4">Introduction</h2>
+        <h2 className="text-white text-4xl font-bold mb-4">About</h2>
         <p className="text-white text-lg leading-relaxed mx-auto mt-4">
           Hi, my name is Luís Silva and I am currently taking my master degree
           in Math and Computer Science. I am passionate about Computers and
